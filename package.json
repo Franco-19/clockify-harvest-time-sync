@@ -4,11 +4,12 @@
   "description": "App to sync time entries from clockify to harvest",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sync": "node index.js"
   },
   "author": "Franco Jara",
   "license": "ISC",
   "dependencies": {
     "node-fetch": "^3.3.1"
-  }
+  },
+  "type": "module"
 }
